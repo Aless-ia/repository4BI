@@ -6,6 +6,9 @@ public Triangolo() {
 	super();
 }
 
+public float areaTriangolo() {
+	return base*altezza;
+}
 public float getBase() {
 	return base;
 }
